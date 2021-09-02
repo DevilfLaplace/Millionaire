@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 
@@ -81,12 +81,13 @@ namespace Milyoner
     class QuestionBank
     {
         #region Props
-        public string Question { get; set; }
-        public string OptionA { get; set; }
-        public string OptionB { get; set; }
-        public string OptionC { get; set; }
-        public string OptionD { get; set; }
-        public string Answer { get; set; }
+        private string Question { get; set; }
+        private string OptionA { get; set; }
+        private string OptionB { get; set; }
+        private string OptionC { get; set; }
+        private string OptionD { get; set; }
+        private string answer { get; set; }
+        public string Answer { get => answer; set => answer = value; }
         #endregion
 
         public QuestionBank(string question, string optionA, string optionB, string optionC, string optionD, string answer)
