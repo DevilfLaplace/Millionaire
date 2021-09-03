@@ -81,12 +81,12 @@ namespace Milyoner
     class QuestionBank
     {
         #region Props
-        private string Question { get; set; }
-        private string OptionA { get; set; }
-        private string OptionB { get; set; }
-        private string OptionC { get; set; }
-        private string OptionD { get; set; }
-        private string answer { get; set; }
+        private string Question;
+        private string OptionA;
+        private string OptionB;
+        private string OptionC;
+        private string OptionD;
+        private string answer;
         public string Answer { get => answer; set => answer = value; }
         #endregion
 
